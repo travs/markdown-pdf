@@ -1,0 +1,16 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  '.overlayer':
+      'Enable markdown-pdf': 'markdown-pdf:toggle'
+
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'markdown-pdf'
+      'submenu': [
+        { 'label': 'Toggle', 'command': 'markdown-pdf:toggle' }
+      ]
+    ]
+  }
+]

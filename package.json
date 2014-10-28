@@ -1,0 +1,15 @@
+{
+  "name": "markdown-pdf",
+  "main": "./lib/markdown-pdf",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "activationEvents": ["markdown-pdf:convert"],
+  "repository": "https://github.com/atom/markdown-pdf",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+    "markdown-pdf": "3.1.0"
+  }
+}
