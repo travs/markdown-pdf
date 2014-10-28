@@ -2,7 +2,7 @@
   "name": "markdown-pdf",
   "main": "./lib/markdown-pdf",
   "version": "0.1.0",
-  "description": "A short description of your package",
+  "description": "Convert markdown to pdf on the fly",
   "activationEvents": [
     "markdown-pdf:convert"
   ],
@@ -12,6 +12,7 @@
     "atom": ">0.50.0"
   },
   "dependencies": {
-    "markdown-pdf": "3.1.0"
+    "markdown-pdf": "3.1.0",
+    "less": "1.7.5"
   }
 }
