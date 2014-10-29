@@ -1,4 +1,6 @@
-* f1702cb (HEAD, tag: v0.1.1, origin/master, master) Prepare 0.1.1 release
+* 676dc76 (HEAD, tag: v0.1.2, origin/master, master) Prepare 0.1.2 release
+* 02cad5a Add less to css conversion
+* f1702cb (tag: v0.1.1) Prepare 0.1.1 release
 * c0fad1c Adds requirement for .md extension when converting.
 * ee6e89c (tag: v0.1.0) Prepare 0.1.0 release
 * d5318ef README.md formatting

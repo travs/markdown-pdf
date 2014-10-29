@@ -9,6 +9,6 @@
 # https://atom.io/docs/latest/advanced/keymaps
 {
   ".editor": {
-    "cmd-alt-a": "markdown-pdf:convert"
+    "cmd-alt-ctrl-c": "markdown-pdf:convert"
   }
 }
