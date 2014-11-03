@@ -10,3 +10,4 @@ Just focus the window containing your markdown file and use the `convert` comman
 ###Planned features
 
 * Support fenced code blocks
+
