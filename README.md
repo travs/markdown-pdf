@@ -1,7 +1,5 @@
 ##markdown-pdf
 
-*This project is still in beta. Use at your own risk.*
-
 Convert markdown-formatted documents to pdf files without leaving Atom.
 
 ###Usage
@@ -9,5 +7,6 @@ Just focus the window containing your markdown file and use the `convert` comman
 
 ###Planned features
 
-* Support fenced code blocks
-
+* Make sure the file to be converted is .md *or some variant*
+* Allow different syntax highlighting
+  * User-selectable or default to currently-active theme?

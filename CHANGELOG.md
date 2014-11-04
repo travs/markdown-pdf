@@ -1,4 +1,7 @@
-* 676dc76 (HEAD, tag: v0.1.2, origin/master, master) Prepare 0.1.2 release
+* 5b87c6b (HEAD, origin/master, master) Remove 'less' dependency. Fix errors from '#' comments in markdown-pdf.json
+* a697d3b Adds getHtml() function
+* 98d17ff Remove some unnecessary files. Fix some typos.
+* 676dc76 (tag: v0.1.2) Prepare 0.1.2 release
 * 02cad5a Add less to css conversion
 * f1702cb (tag: v0.1.1) Prepare 0.1.1 release
 * c0fad1c Adds requirement for .md extension when converting.
