@@ -1,0 +1,18 @@
+{
+"menu": [
+  {
+    "label": "Packages",
+    "submenu": [
+      {
+        "label": "Markdown to PDF",
+        "submenu": [
+          {
+            "label": "Toggle Preview",
+            "command": "markdown-pdf:toggle"
+          }
+        ]
+      }
+    ]
+  }
+]
+}
