@@ -5,7 +5,7 @@ Convert markdown-formatted documents to pdf files without leaving Atom.
 ###Usage
 Just focus the window containing your markdown file and use the `convert` command.
 
-![markdown-preview](https://raw.github.com/travs/markdown-preview/master/assets/testpdf.png)
+![markdown-preview](https://raw.githubusercontent.com/travs/markdown-pdf/master/assets/testpdf.png)
 
 ###How it works
 
