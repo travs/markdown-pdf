@@ -8,7 +8,7 @@
         "submenu": [
           {
             "label": "Toggle Preview",
-            "command": "markdown-pdf:toggle"
+            "command": "markdown-pdf:convert"
           }
         ]
       }
