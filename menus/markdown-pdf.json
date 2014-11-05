@@ -7,7 +7,7 @@
         "label": "Markdown to PDF",
         "submenu": [
           {
-            "label": "Toggle Preview",
+            "label": "Convert",
             "command": "markdown-pdf:convert"
           }
         ]
