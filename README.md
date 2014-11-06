@@ -1,4 +1,4 @@
-##markdown-pdf
+##[markdown-pdf](https://atom.io/packages/markdown-pdf)
 
 Convert markdown-formatted documents to pdf files without leaving Atom.
 
@@ -17,10 +17,9 @@ This HTML+CSS is then fed to [alanshaw's markdown-pdf node package](https://gith
 
 ###Planned features/To-Do
 
-- [ ] Make sure the file to be converted is .md *or some variant*
-- [ ] Allow different syntax highlighting
-  * User-selectable or default to currently-active theme?
-- [ ] Support adding photos
-- [ ] Use a lower-level conversion technique?
+- [x] Support .md *variant* filetypes (ex: .markdown, .mkd, etc.)
+- [ ] Support hyperlinks in pdf output.
+- [ ] Support photos in pdf output.
+- [ ] Allow custom syntax highlighting.
 - [ ] Add dependency on markdown-preview in code.
-- [ ] Fix keybindings (make issue for this)
+- [ ] Enable keybindings on different operating systems than OSX.
