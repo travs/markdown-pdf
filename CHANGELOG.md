@@ -1,4 +1,6 @@
-* 8fec21a (HEAD, tag: v1.0.1, origin/master, master) Prepare 1.0.1 release
+* af1363a (HEAD, tag: v1.0.2, origin/master, master) Prepare 1.0.2 release
+* 86a4e3b Add better extension checking.
+* 8fec21a (tag: v1.0.1) Prepare 1.0.1 release
 * aeaf213 Add convert command to menu
 * 28253c5 Fix menu. Add todo to README.
 * 7759e5b Correct README.md path.
