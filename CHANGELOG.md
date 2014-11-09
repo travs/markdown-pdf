@@ -1,3 +1,6 @@
+* 0506101 Update README.
+* e923345 Prepare 1.1.0 release
+* bbd534c Remove dependency on markdown-pdf node package. Instead use 'marked' and 'html-pdf'
 * 25ef9b4 Add renaming to work with non-.md inputfile extensions.
 * 45e35d9 Prepare 1.0.3 release
 * 797ad1d Fix issue #2. No clipboard use any more
