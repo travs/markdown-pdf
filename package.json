@@ -12,6 +12,7 @@
     "atom": ">0.50.0"
   },
   "dependencies": {
-    "markdown-pdf": "3.1.0"
+    "marked": "0.3.2",
+    "html-pdf": "0.2.1"
   }
 }

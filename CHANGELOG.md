@@ -1,3 +1,4 @@
+* 25ef9b4 Add renaming to work with non-.md inputfile extensions.
 * 45e35d9 Prepare 1.0.3 release
 * 797ad1d Fix issue #2. No clipboard use any more
 * af1363a Prepare 1.0.2 release
