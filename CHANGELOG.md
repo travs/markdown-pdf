@@ -1,3 +1,4 @@
+* 7ee90d7 Update CHANGELOG. Also, issue #3 fixed in previous commit.
 * 0506101 Update README.
 * e923345 Prepare 1.1.0 release
 * bbd534c Remove dependency on markdown-pdf node package. Instead use 'marked' and 'html-pdf'

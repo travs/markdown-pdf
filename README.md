@@ -22,4 +22,4 @@ This HTML+CSS is then fed to [html-pdf](https://www.npmjs.org/package/html-pdf),
 - [x] Support photos in pdf output.
 - [ ] Allow custom syntax highlighting.
 - [ ] Add dependency on markdown-preview in code.
-- [ ] Enable keybindings on different operating systems than OSX.
+- [x] Enable keybindings on different operating systems than OSX.

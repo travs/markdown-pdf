@@ -1,5 +1,9 @@
 {
-  ".editor": {
-    "cmd-alt-ctrl-c": "markdown-pdf:convert"
+  ".platform-darwin .editor": {
+    "cmd-shift-c": "markdown-pdf:convert"
+  },
+
+  ".platform-win32 .editor, .platform-linux .editor": {
+    "ctrl-shift-c": "markdown-pdf:convert"
   }
 }
