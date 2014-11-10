@@ -1,7 +1,7 @@
 {
   "name": "markdown-pdf",
   "main": "./lib/markdown-pdf",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Convert markdown to pdf on the fly.",
   "activationEvents": [
     "markdown-pdf:convert"
