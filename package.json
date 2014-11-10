@@ -8,11 +8,12 @@
   ],
   "repository": "https://github.com/travs/markdown-pdf",
   "license": "MIT",
+  "author": "Travis Jacobs (github.com/travs)",
   "engines": {
     "atom": ">0.50.0"
   },
   "dependencies": {
-    "marked": "0.3.2",
-    "html-pdf": "0.2.1"
+    "marked": ">=0.3.2",
+    "html-pdf": ">=0.2.1"
   }
 }

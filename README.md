@@ -23,3 +23,6 @@ This HTML+CSS is then fed to [html-pdf](https://www.npmjs.org/package/html-pdf),
 - [ ] Allow custom syntax highlighting.
 - [ ] Add dependency on markdown-preview in code.
 - [x] Enable keybindings on different operating systems than OSX.
+
+####Heart it? Hate it?
+Feel free to run `apm star 'markdown-pdf'` or give some feedback ;-)
