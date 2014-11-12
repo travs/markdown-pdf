@@ -13,7 +13,10 @@
     "atom": ">0.50.0"
   },
   "dependencies": {
-    "marked": ">=0.3.2",
-    "html-pdf": ">=0.2.1"
+    "marked": "0.3.x",
+    "html-pdf": "0.2.x"
+  },
+  "package-dependencies": {
+    "color-picker": "2.1.0"
   }
 }
