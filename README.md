@@ -25,4 +25,4 @@ This HTML+CSS is then fed to [html-pdf](https://www.npmjs.org/package/html-pdf),
 - [x] Enable keybindings on different operating systems than OSX.
 
 ####Heart it? Hate it?
-Feel free to run `apm star 'markdown-pdf'` or give some feedback ;-)
+Feel free to run `apm star 'markdown-pdf'` or give some feedback :smile:
