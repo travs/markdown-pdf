@@ -1,3 +1,25 @@
+* 28da63c Add function to make local links file:// protocol.
+* 844cb39 Prepare 1.2.1 release
+* f8b0619 Fix bracket error.
+* c035729 Prepare 1.2.0 release
+* c878c8c Change desc.
+* 012fa47 Fix README. Fixes #5.
+* 28ed5d0 Add config options.
+* fb4727e Support newer versions of html-pdf. Should fix #7.
+* 7696334 Prepare 1.1.2 release
+*   e045463 Merge branch 'master' of https://github.com/travs/markdown-pdf
+|\  
+| *   9a20929 Merge pull request #11 from schmurfy/load_user_style
+| |\  
+| | * 672d5b8 load user styles
+| |/  
+| * ed1a1bc Format code.
+* | 0beb494 Add options for marked.
+* | 6805136 Formatting.
+* | 782a527 Add further error checking.
+|/  
+* 144cbfd Prepare 1.1.1 release
+* 68da1a1 Add shameless author tag.
 * aa9e20f Add cross-OS keybindings (#6).
 * 7ee90d7 Update CHANGELOG. Also, issue #3 fixed in previous commit.
 * 0506101 Update README.
