@@ -5,7 +5,7 @@ Convert markdown-formatted documents to pdf, png or jpeg files without ever leav
 ###Usage
 Just focus the window containing your markdown file and use the `convert` command.
 
-![markdown-pdf](assets/testpdf.png)
+![markdown-pdf](https://raw.githubusercontent.com/travs/markdown-pdf/master/assets/testpdf.png)
 
 You can set parameters in the package's settings, such as page size, orientation, and output format (pdf, png or jpeg).
 
