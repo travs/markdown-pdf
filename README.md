@@ -15,5 +15,7 @@ The HTML provided by running the markdown through [marked](https://www.npmjs.org
 
 This HTML+CSS is then fed to [html-pdf](https://www.npmjs.org/package/html-pdf), which outputs the final image (pdf, png or jpeg) doc.
 
+The package has dependencies on [tree-view](https://github.com/atom/tree-view) and [markdown-preview](https://github.com/atom/markdown-preview), but since these are included in the default atom installation, you probably won't have to worry about that.
+
 ####Heart it? Hate it?
 Feel free to run `apm star 'markdown-pdf'` or give some feedback :smile:

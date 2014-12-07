@@ -1,3 +1,7 @@
+* 55f8ba2 Fix #12 and #13.
+* 0403462 Update README
+* 2859702 Prepare 1.2.2 release
+* 3287a9a Add conversion of img src to URI. Fixes #8.
 * 28da63c Add function to make local links file:// protocol.
 * 844cb39 Prepare 1.2.1 release
 * f8b0619 Fix bracket error.
