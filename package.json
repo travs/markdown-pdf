@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "marked": "0.3.x",
-    "html-pdf": "0.3.x"
+    "html-pdf": "0.3.x",
+    "atom-package-dependencies": "1.0.1"
   }
 }
