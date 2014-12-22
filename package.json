@@ -1,7 +1,7 @@
 {
   "name": "markdown-pdf",
   "main": "./lib/markdown-pdf",
-  "version": "1.2.8",
+  "version": "1.2.6",
   "description": "Convert markdown to pdf, png or jpeg on the fly.",
   "activationEvents": [
     "markdown-pdf:convert"
@@ -15,10 +15,6 @@
   "dependencies": {
     "marked": "0.3.x",
     "html-pdf": "0.3.x",
-    "atom-package-dependencies": "latest"
-  },
-  "package-dependencies": {
-    "tree-view": "",
-    "markdown-preview": ""
+    "atom-package-dependencies": "1.0.1"
   }
 }
