@@ -1,5 +1,7 @@
 ##[markdown-pdf](https://atom.io/packages/markdown-pdf)
 
+[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/travs/markdown-pdf?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Convert markdown-formatted documents to pdf, png or jpeg files without ever leaving Atom.
 
 ###Usage
