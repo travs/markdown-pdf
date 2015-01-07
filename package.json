@@ -1,7 +1,7 @@
 {
   "name": "markdown-pdf",
   "main": "./lib/markdown-pdf",
-  "version": "1.2.8",
+  "version": "1.2.9",
   "description": "Convert markdown to pdf, png or jpeg on the fly.",
   "activationEvents": [
     "markdown-pdf:convert"
