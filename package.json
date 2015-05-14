@@ -3,9 +3,9 @@
   "main": "./lib/markdown-pdf",
   "version": "1.3.5",
   "description": "Convert markdown to pdf, png or jpeg on the fly.",
-  "activationEvents": [
-    "markdown-pdf:convert"
-  ],
+  "activationCommands": {
+    "atom-workspace": "markdown-pdf:convert"
+  },
   "repository": "https://github.com/travs/markdown-pdf",
   "license": "MIT",
   "author": "Travis Jacobs (github.com/travs)",
