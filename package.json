@@ -13,7 +13,7 @@
     "atom": ">0.50.0"
   },
   "dependencies": {
-    "html-pdf": "1.2.2",
+    "html-pdf": "0.3.x",
     "less": "^1.7.0"
   }
 }
