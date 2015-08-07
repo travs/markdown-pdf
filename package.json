@@ -1,7 +1,7 @@
 {
   "name": "markdown-pdf",
   "main": "./lib/markdown-pdf",
-  "version": "1.3.8",
+  "version": "1.3.9",
   "description": "Convert markdown to pdf, png or jpeg on the fly.",
   "activationCommands": {
     "atom-workspace": "markdown-pdf:convert"
