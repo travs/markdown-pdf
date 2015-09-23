@@ -15,5 +15,8 @@
   "dependencies": {
     "html-pdf": "0.3.x",
     "less": "^1.7.0"
+  },
+  "devDependencies": {
+    "temp": "^0.8.3"
   }
 }

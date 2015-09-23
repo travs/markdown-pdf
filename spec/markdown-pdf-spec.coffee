@@ -1,5 +1,7 @@
-{WorkspaceView} = require 'atom'
 MarkdownPdf = require '../lib/markdown-pdf'
+temp = require('temp').track()
+path = require 'path'
+fs = require 'fs'
 
 # Use the command `window:run-package-specs` (cmd-alt-ctrl-p) to run specs.
 #
@@ -7,24 +9,67 @@ MarkdownPdf = require '../lib/markdown-pdf'
 # or `fdescribe`). Remove the `f` to unfocus the block.
 
 describe "MarkdownPdf", ->
-  activationPromise = null
+  [workspaceElement, tempDIRPath, activationPromise] = []
 
   beforeEach ->
-    atom.workspaceView = new WorkspaceView
+    tempDIRPath     = temp.mkdirSync 'atom-temp-dir-'
+    tempFixturePath = path.join tempDIRPath, 'simple.md'
+
+    fixturePath = path.join __dirname, 'fixtures/simple.md'
+    fixtureFile = fs.readFileSync fixturePath, 'utf8'
+
+    fs.writeFileSync tempFixturePath, fixtureFile
+
+    workspaceElement = atom.views.getView(atom.workspace)
+    jasmine.attachToDOM(workspaceElement)
+
     activationPromise = atom.packages.activatePackage('markdown-pdf')
 
-  describe "when the markdown-pdf:toggle event is triggered", ->
-    it "attaches and then detaches the view", ->
-      expect(atom.workspaceView.find('.markdown-pdf')).not.toExist()
+    waitsForPromise ->
+      atom.themes.activateThemes()
 
-      # This is an activation event, triggering it will cause the package to be
-      # activated.
-      atom.workspaceView.trigger 'markdown-pdf:toggle'
+    waitsForPromise ->
+      atom.workspace.open(tempFixturePath)
+
+  afterEach ->
+    atom.themes.deactivateThemes()
+
+  describe "when markdown-preview is enabled", ->
+    it "makes a pdf from clipboard data after calling markdown-preview::copyHtml()", ->
+      spyOn(atom.clipboard, 'write').andCallThrough()
+
+      waitsForPromise ->
+        atom.packages.activatePackage('markdown-preview')
+
+      runs ->
+        atom.commands.dispatch workspaceElement, 'markdown-pdf:convert'
 
       waitsForPromise ->
         activationPromise
 
+      waitsFor "PDF to have been created", ->
+        fs.readdirSync(tempDIRPath).length is 2
+
       runs ->
-        expect(atom.workspaceView.find('.markdown-pdf')).toExist()
-        atom.workspaceView.trigger 'markdown-pdf:toggle'
-        expect(atom.workspaceView.find('.markdown-pdf')).not.toExist()
+        expect(atom.clipboard.write).toHaveBeenCalled()
+
+  describe "when markdown-preview-plus is enabled and markdown-preview disabled", ->
+    it "makes a pdf from callback parameter data after calling markdown-preview-plus::copyHtml()", ->
+      mpp = null
+
+      waitsForPromise ->
+        atom.packages.activatePackage('markdown-preview-plus')
+
+      runs ->
+        mpp = atom.packages.getActivePackage('markdown-preview-plus')
+        spyOn(mpp.mainModule, "copyHtml").andCallThrough()
+        atom.commands.dispatch workspaceElement, 'markdown-pdf:convert'
+
+      waitsForPromise ->
+        activationPromise
+
+      waitsFor "PDF to have been created", ->
+        fs.readdirSync(tempDIRPath).length is 2
+
+      runs ->
+        expect(mpp.mainModule.copyHtml).toHaveBeenCalled()
