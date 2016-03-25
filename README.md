@@ -5,7 +5,7 @@ Convert markdown-formatted documents to pdf, png or jpeg files without ever leav
 ### Usage
 Just focus the window containing your markdown file and use the `convert` command.
 
-The output PDF will be styled according to your currently-active theme in Atom, as well as any user styles you have added. It will appear in the same directory as the Markdown you are converting, with the same name and a different extension.
+The output PDF will be styled similar to the github-flavored markdown on github.com, as well as any user styles you have added. It will appear in the same directory as the Markdown you are converting, with the same name and a different extension.
 
 ![markdown-pdf](https://raw.githubusercontent.com/travs/markdown-pdf/master/assets/testpdf.png)
 
