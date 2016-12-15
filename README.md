@@ -2,6 +2,10 @@
 
 Convert markdown-formatted documents to pdf, png or jpeg files without ever leaving Atom.
 
+### Requirements
+
+- PhantomJS 
+
 ### Usage
 Just focus the window containing your markdown file and use the `convert` command.
 
