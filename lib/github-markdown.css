@@ -49,6 +49,7 @@
 .markdown-body pre {
   font-family: monospace, monospace;
   font-size: 1em;
+  word-wrap: break-word;
 }
 
 .markdown-body input {
