@@ -16,7 +16,7 @@
     "html-pdf": "2.0.x",
     "less": "^1.7.0",
     "loophole": "^1.1.0",
-    "mdpdf": "^1.4.0"
+    "mdpdf": "^1.5.1"
   },
   "devDependencies": {
     "temp": "^0.8.3"
