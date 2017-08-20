@@ -6,3 +6,4 @@ node_modules
 *.png
 *.html
 package-lock.json
+test*
