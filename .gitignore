@@ -5,5 +5,4 @@ node_modules
 *.jpeg
 *.png
 *.html
-package-lock.json
 test*
