@@ -6,6 +6,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [2.0.2] - 2017-08-30
+### Fixed
+- bug giving incorrect path when atom started in another directory
+
+## [2.0.2] - 2017-08-29
+### Added
+- fallback conversion module
+
 ## [2.0.0] - 2017-08-27
 ### Changed
 - upgraded converting engine to [mdpdf](https://github.com/bluehatbrit/mdpdf)
