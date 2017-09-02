@@ -6,7 +6,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
-## [2.0.2] - 2017-08-30
+## [2.0.4] - 2017-09-02
+### Fixed
+- user style support for CSS or LESS
+
+## [2.0.3] - 2017-08-30
 ### Fixed
 - bug giving incorrect path when atom started in another directory
 
