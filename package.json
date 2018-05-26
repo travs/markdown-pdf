@@ -14,9 +14,9 @@
   },
   "dependencies": {
     "html-pdf": "2.0.x",
-    "less": "^2.7.2",
+    "less": "^2.7.3",
     "loophole": "^1.1.0",
-    "mdpdf": "^1.5.1",
+    "mdpdf": "^1.6.0",
     "tmp": "0.0.33"
   },
   "devDependencies": {
