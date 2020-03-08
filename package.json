@@ -15,7 +15,7 @@
   "dependencies": {
     "html-pdf": "2.2.x",
     "less": "^3.10.3",
-    "mdpdf": "^2.0.5",
+    "mdpdf": "^2.1.0",
     "tmp": "0.1.0"
   }
 }
