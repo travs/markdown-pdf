@@ -1,9 +1,9 @@
 {
   ".platform-darwin atom-text-editor": {
-    "ctrl-shift-c": "markdown-pdf:convert"
+    "ctrl-alt-e": "markdown-pdf:convert"
   },
 
   ".platform-win32 .editor, .platform-linux atom-text-editor": {
-    "ctrl-shift-c": "markdown-pdf:convert"
+    "ctrl-alt-e": "markdown-pdf:convert"
   }
 }

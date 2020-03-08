@@ -9,7 +9,12 @@
           {
             "label": "Convert",
             "command": "markdown-pdf:convert"
+          },
+          {
+            "label": "Settings",
+            "command": "markdown-pdf:open-settings"
           }
+
         ]
       }
     ]
