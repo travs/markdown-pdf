@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [2.3.0] - 2020-03-08
+### Changed
+- use newer version of mdpdf (puppeteer)
+
 ## [2.0.4] - 2017-09-02
 ### Fixed
 - user style support for CSS or LESS
