@@ -13,7 +13,9 @@ You can set parameters in the package's settings, such as page and border size.
 
 ![markdown-pdf](https://raw.githubusercontent.com/travs/markdown-pdf/master/assets/testpdf.png)
 
-#### Note on styles
+### Tips
+
+#### User styles
 
 Note that user styles will have to be encapsulated in a `.markdown-body` selector to override the default stylesheets, like this:
 
@@ -25,19 +27,38 @@ Note that user styles will have to be encapsulated in a `.markdown-body` selecto
 }
 ```
 
+#### Page breaks
 
-#### Heart it? Hate it?
+Page breaks can be added with this element:
+
+```html
+<div style="page-break-after: always;"></div>
+```
+
+#### Image paths
+
+If you have trouble rendering an image, you may have to use a relative path:
+
+```
+# this doesn't work:
+![logo](/assets/logo.png)
+
+# but this does
+![logo](./assets/logo.png)
+```
+
+### Heart it? Hate it?
+
 Feel free to run `apm star 'markdown-pdf'` or give some feedback :smile:
 
-##### Special thanks to these folks
+#### Special thanks to these folks
 
-- [@BlueHatbRit](https://github.com/blueHatbRit): for helping integrate the essential [`mdpdf`](https://github.com/bluehatbrit/mdpdf) converter module
-- [@schmurphy](https://github.com/NKMR6194): [#11](https://github.com/travs/markdown-pdf/pull/11)
-- [@NKMR6194](https://github.com/NKMR6194): [#51](https://github.com/travs/markdown-pdf/pull/51), [#83](https://github.com/travs/markdown-pdf/pull/83)
-- [@Nicnl](https://github.com/Nicnl): [#28](https://github.com/travs/markdown-pdf/pull/28)
-- [@brianchung808](https://github.com/brianchung808): [#34](https://github.com/travs/markdown-pdf/pull/34)
-- [@hdmi](https://github.com/hdmi): [#53](https://github.com/travs/markdown-pdf/pull/53)
-- [@CumpsD](https://github.com/CumpsD): [#59](https://github.com/travs/markdown-pdf/pull/59)
-- [@pydolan](https://github.com/pydolan): [#72](https://github.com/travs/markdown-pdf/pull/72), [#74](https://github.com/travs/markdown-pdf/pull/74)
-- [@Galadirith](https://github.com/Galadirith): [#88](https://github.com/travs/markdown-pdf/pull/88)
-
+- [@BlueHatbRit](https://github.com/blueHatbRit)
+- [@jooola](https://github.com/jooola)
+- [@NKMR6194](https://github.com/NKMR6194)
+- [@Nicnl](https://github.com/Nicnl)
+- [@brianchung808](https://github.com/brianchung808)
+- [@hdmi](https://github.com/hdmi)
+- [@CumpsD](https://github.com/CumpsD)
+- [@pydolan](https://github.com/pydolan)
+- [@Galadirith](https://github.com/Galadirith)
