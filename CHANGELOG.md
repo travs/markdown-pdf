@@ -8,7 +8,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Changed
 - bump mdpdf version (fix tmpfile path proble)
 
-
 ## [2.3.1]
 ### Added
 - add orientation support
