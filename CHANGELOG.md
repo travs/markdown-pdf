@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [2.3.2]
+### Changed
+- bump mdpdf version (fix tmpfile path proble)
+
+
 ## [2.3.1]
 ### Added
 - add orientation support
@@ -15,23 +20,23 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Fixed
 - error when missing stylesheet in default path
 
-## [2.3.0] - 2020-03-08
+## [2.3.0]
 ### Changed
 - use newer version of mdpdf (puppeteer)
 
-## [2.0.4] - 2017-09-02
+## [2.0.4]
 ### Fixed
 - user style support for CSS or LESS
 
-## [2.0.3] - 2017-08-30
+## [2.0.3]
 ### Fixed
 - bug giving incorrect path when atom started in another directory
 
-## [2.0.2] - 2017-08-29
+## [2.0.2]
 ### Added
 - fallback conversion module
 
-## [2.0.0] - 2017-08-27
+## [2.0.0]
 ### Changed
 - upgraded converting engine to [mdpdf](https://github.com/bluehatbrit/mdpdf)
 
