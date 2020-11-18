@@ -3,7 +3,7 @@
 Convert markdown-formatted documents to pdf files without ever leaving Atom.
 
 ### Usage
-Just focus the window containing your markdown file and use the `convert` command (`Packages > Markdown PDF > Convert`).
+Just focus the window containing your markdown file and use the `convert` command (`Packages > Markdown PDF > Convert`) or use the shortcut `ctrl+alt+e`.
 
 The output PDF will be styled similar to the markdown on `github.com`, as well as any [user styles](https://flight-manual.atom.io/using-atom/sections/basic-customization/#style-tweaks) you have added.
 
